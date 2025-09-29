@@ -51,3 +51,56 @@ body {
 .foto-hacker{
     border-radius: 9999px;
 }
+
+
+.judul-biodata{
+    color: blue;
+    
+}
+
+.pembungkus-biodata{
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.084);
+    padding: 12px; 
+    border-radius: 8px;
+}
+
+.judul-biodata-singkat{
+    color:blue;
+    border-left: 8px solid gold;
+    padding-left: 12px;
+}
+
+.foto-logo{
+    border-radius: 999px;
+}
+
+
+.judul-hobi{
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.128);
+      padding: 12px;
+      margin-top: 15px;
+      border-radius: 8px;
+}
+
+
+
+.judul-hobi .hobi {
+    color: blue;
+    border-left: 8px solid gold;
+    padding-left: 12px;
+}
+.judul-cita-cita{
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.128);
+      padding: 12px;
+      margin-top: 15px;
+      border-radius: 8px;
+}
+
+.judul-cita-cita .cita-cita {
+    color: blue;
+    border-left: 8px solid gold;
+    padding-left: 12px;
+}
