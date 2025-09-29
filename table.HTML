@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #tabel4 {
+        border-collapse: collapse;
+      }
+      #tabel4 td {
+        padding: 6px;
+        font-size: 19px;
+      }
+      #tabel4 .bg-blue {
+        background-color: darkblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML 5 TABLE</h1>
+    <hr />
+    <h3>table dasar</h3>
+    <!--<tr: untuk membuat baris-->
+    <table border="1" id="tabel4">
+      <tr class="bg-blue">
+        <td>nomor</td>
+        <td>nama</td>
+        <td>alamat</td>
+        <td>umur</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>tegar</td>
+        <td>wonosobo</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>ajeng febria</td>
+        <td>indonesia</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <h3>table standar HTML 5</h3>
+    <table border="2" style="width: 50%">
+      <thead>
+        <tr>
+          <th>nomor</th>
+          <th>tanggal</th>
+          <th>nama barang</th>
+          <th>harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>23/09/2025</td>
+          <td>laptop</td>
+          <td>10000.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>23/09/2025</td>
+          <td rowspan="2">es teh desa</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24/09/2025</td>
+          <!-- <td>es teh desa</td> -->
+          <td>5000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3 "><b>total pengeluaran</b></td>
+          <td><b>15000.000</b></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

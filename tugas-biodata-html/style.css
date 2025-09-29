@@ -1,0 +1,53 @@
+body {
+  margin: auto;
+  font-family: sans-serif;
+  background-color: rgba(128, 128, 128, 0.093);
+}
+
+.container {
+  text-align: center;
+  padding-top: 48px;
+  width: 60%;
+  margin: auto;
+}
+
+.title {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.165);
+}
+
+.nama-sekolah {
+    color: blue;
+}
+
+.nama-website{
+    color: gray;
+}
+
+.pengantar{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.title-pengantar{
+    border-left: 5px solid gold;
+    padding-left: 6px;
+}
+
+.title-avatar{
+    border-left: 5px solid gold;
+    padding-left: 6px;
+}
+
+.avatar{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.foto-hacker{
+    border-radius: 9999px;
+}

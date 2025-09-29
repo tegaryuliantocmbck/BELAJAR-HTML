@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html 5 form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>HTML 5 FORM</h1>
+      <hr />
+      <form>
+        <div>
+          <label for="">masukan nama</label>
+          <input type="text" name="nama_lengkap" id="masukan nama" />
+        </div>
+        <div>
+          <label for="umur">umur</label>
+          <input type="text" name="nama_lengkap" id="umur" />
+        </div>
+        <div>
+          <label for="inputbio">BIOGRAFI</label>
+          <textarea name="" id="inputbio"></textarea>
+        </div>
+        <p>jenis kemaluan</p>
+        <input type="radio" name="jenis_kelamin" id="laki-laki" />
+        <label for="laki-laki">laki-laki</label>
+        <input type="radio" name="jenis_kelamin" id="perempuan" />
+        <label for="perempuan">perempuan</label>
+        <br /><br />
+        <div>
+          <p>hobi</p>
+          <input type="checkbox" name="hobi" id="ngaji" />
+          <label for="ngaji">ngaji</label>
+          <input type="checkbox" name="hobi" id="jalan sama kamu" />
+          <label for="jalan sama kamu">jalan sama kamu</label>
+          <input type="checkbox" name="hobi" id="pulang" />
+          <label for="pulang">pulang</label>
+          <input type="checkbox" name="hobi" id="denger lagu" />
+          <label for="denger lagu">denger lagu</label>
+          <input type="checkbox" name="hobi" id="mikirin kamu" />
+          <label for="mikirin kamu">mikirin kamu</label>
+          <br /><br />
+        </div>
+        <div>
+          <label for="kota">asal kota</label>
+          <select name="" id="kota">
+            <option value="JKT">jakarta</option>
+            <option value="SL">solo</option>
+            <option value="WSB">wonosobo</option>
+            <option value="YOG">yogyakarta</option>
+            <option value="BKS">bekasi</option>
+            <option value="SBG">subang</option>
+            <option value="JMG">jombang</option>
+          </select>
+          <div>
+            <label for="tanggal">tanggal lahir</label>
+            <input type="date" name="tgl_lahir" id="date"
+          </div>
+          <div>
+            <label for="email">alamat email</label>
+            <input type="email" name="email" id="email"
+          </div>
+          <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="pass"
+          </div>
+        </div>
+        <div class="grid">
+          <button type="reset">batal</button>
+          <button type="submit">kirim</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
